@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet } from 'react-native';
 import { Stack } from 'expo-router';
-import PagerView from 'react-native-pager-view';
+// import PagerView from 'react-native-pager-view';
 
 // export default function ImageScreen() {
 //   return (
@@ -31,7 +31,7 @@ export default function ImageScreen() {
   return (
     <View style={{flex: 1}}>
       <Stack.Screen name="index" options={{ headerShown: false }} />
-      <PagerView style={styles.container} initialPage={0}>
+      {/* <PagerView style={styles.container} initialPage={0}>
         <View style={styles.page} key="1">
           <Text>First page</Text>
           <Text>Swipe ➡️</Text>
@@ -42,7 +42,7 @@ export default function ImageScreen() {
         <View style={styles.page} key="3">
           <Text>Third page</Text>
         </View>
-      </PagerView>
+      </PagerView> */}
     </View>
   );
 }
